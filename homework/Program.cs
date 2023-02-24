@@ -13,3 +13,12 @@ string[] SortStringArray(string[] test, int n)
 
     return result.Substring(1).Split(',');
 }
+
+Console.Write("[" + string.Join(", ", test1) + "]" + " -> ");
+Console.WriteLine("[" + string.Join(", ", SortStringArray(test1, 3)) + "]");
+
+Console.Write("[" + string.Join(", ", test2) + "]" + " -> ");
+Console.WriteLine("[" + string.Join(", ", SortStringArray(test2, 3)) + "]");
+
+Console.Write("[" + string.Join(", ", test3) + "]" + " -> ");
+Console.WriteLine("[" + string.Join(", ", SortStringArray(test3, 3)) + "]");
